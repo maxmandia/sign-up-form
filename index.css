@@ -151,12 +151,15 @@ img {
 
 h2 {
   position: absolute;
-  top: 25%;
-  left: 40%;
+  top: 20vh;
+  text-align: center;
 
   width: 100%;
+  padding: 30px 0px;
 
   color: white;
+  background-color: rgba(50, 20, 51, 0.3);
+
   font-size: 50px;
   font-weight: bolder;
 }
