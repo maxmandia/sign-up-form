@@ -188,8 +188,14 @@ em {
 }
 
 .form-header {
-  font-size: 40px;
+  font-size: 50px;
   padding-left: 3vw;
+}
+
+.middle-new {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
 
 .middle {
@@ -214,6 +220,34 @@ em {
   gap: 10px;
 }
 
-button {
-  width: 15%;
+.create-acc {
+  width: 30%;
+  padding: 5px 75px;
+  font-size: 1.2em;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 2px solid white;
+  color: white;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+label {
+  color: off-white;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+input {
+  opacity: 75%;
+  border-radius: 5px;
+  padding: 8px;
+  width: 75%;
+}
+
+input:hover {
+  border-color: white;
 }
